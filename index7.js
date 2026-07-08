@@ -25,7 +25,7 @@ client.on('messageCreate', async (message) => {
 
         // إرسال الصورة مع الأزرار
         await message.channel.send({
-            files: ['G.jpg'], // رابط الصورة 
+            files: ['https://cdn.discordapp.com/attachments/1501300022808023351/1524355743451578388/IMG_8689.jpg?ex=6a4f726a&is=6a4e20ea&hm=ab53e31f2035dbd6d33520c4fc6d045559138f6e397c96150cbfe56843dd0f40'], // رابط الصورة 
             components: [row]
         });
     }
