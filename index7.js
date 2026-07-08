@@ -13,17 +13,17 @@ client.on('messageCreate', async (message) => {
                 new ButtonBuilder()
                     .setLabel('Read Rules')
                     .setStyle(ButtonStyle.Link)
-                    .setURL('https://discord.com/channels/SERVER_ID/1013930692381507584'),
+                    .setURL('https://discord.gg/eFKj74VGPf'),
 
                 new ButtonBuilder()
                     .setLabel('Apply')
                     .setStyle(ButtonStyle.Link)
-                    .setURL('https://discord.com/channels/SERVER_ID/1512520871313408142'),
+                    .setURL('https://discord.gg/P44Jzbd4zZ'),
 
                 new ButtonBuilder()
                     .setLabel('Arena')
                     .setStyle(ButtonStyle.Link)
-                    .setURL('https://discord.com/channels/SERVER_ID/1524314320379314297'),
+                    .setURL('https://discord.gg/FkX5SCvQXw'),
             );
 
         // 3. إرسال الصورة والأزرار
